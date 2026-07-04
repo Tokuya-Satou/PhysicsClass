@@ -10,7 +10,7 @@ k = 2*pi/4.0
 w = 2*pi*1.0
 num_particles = 41
 
-set multiplot layout 2,1 title "Longitudinal Wave (Top) vs. Transverse Representation (Bottom)"
+set multiplot layout 2,1
 
 do for [t_idx=0:40] {
     t = t_idx * 0.05
@@ -37,9 +37,9 @@ do for [t_idx=0:40] {
     plot A*sin(w*t - k*x) lw 2 lc "red" title "Displacement"
     
     unset multiplot
-    set multiplot layout 2,1
+    if (t_idx < 40) {
+        set multiplot layout 2,1
+    }
 }
-
-unset multiplot
 set output
 set terminal windows
