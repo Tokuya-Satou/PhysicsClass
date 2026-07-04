@@ -24,7 +24,7 @@ do for [t_idx=0:40] {
     set title "Physical Particle Displacement (Longitudinal)"
     plot for [i=0:num_particles-1] \
         "+" using (i*L/(num_particles-1) + A*sin(w*t - k*(i*L/(num_particles-1)))):(0) \
-        every 1:1:1:1 with points pt 7 ps 1.5 lc "blue" notitle
+        every ::0::0 with points pt 7 ps 1.5 lc "blue" notitle
     
     # 下段: 横波表示（y-xグラフ）
     set origin 0, 0
