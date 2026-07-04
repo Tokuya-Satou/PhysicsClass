@@ -1,4 +1,4 @@
-﻿# wave animation 
+# wave animation 
 # x=0で波発生 + 自由端 & x=Lで固定端
 
 w=2*pi* 50
