@@ -1,1 +1,4 @@
 __pycache__/
+
+# Claude Code 設定（ローカル専用）
+.claude/
