@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 from matplotlib.widgets import Button, RadioButtons
 
 # 日本語フォントの設定 (Windows用)
-plt.rcParams['font.family'] = 'MS Gothic'
+plt.rcParams['font.family'] = 'Yu Gothic'
 
 # --- 物理量の設定 ---
 A = 1.0       # 振幅 (Amplitude)

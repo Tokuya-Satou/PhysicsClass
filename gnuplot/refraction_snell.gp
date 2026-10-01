@@ -6,9 +6,9 @@ set output "refraction_snell.gif"
 
 # 設定
 v1 = 1.0        # 媒質1の速度
-v2 = 0.6        # 媒質2の速度
+v2 = 0.8        # 媒質2の速度
 theta1 = 45.0 * pi/180.0  # 入射角
-w = 2*pi * 1.5  # 角振動数
+w = 2*pi * 1.0  # 角振動数
 
 k1 = w / v1
 # スネルの法則: sin(theta1)/v1 = sin(theta2)/v2

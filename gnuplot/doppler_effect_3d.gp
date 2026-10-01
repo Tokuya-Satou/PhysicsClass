@@ -7,7 +7,7 @@ set term gif animate delay 10 size 900,700
 set output "doppler_effect_3d.gif"
 
 # 物理定数の設定
-v_source = 1.5   # 波源の速度
+v_source = 0.50   # 波源の速度
 v_wave = 1.0     # 波の速度
 dt = 1.5         # 波の放出間隔
 T_max = 20.0     # 全描画時間
