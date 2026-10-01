@@ -22,7 +22,6 @@
 
 - `generate_gifs.py`: Python を使用して複数のスクリプトから一括で GIF を生成します。
 - `run_all.bat`: Windows バッチファイルを使用して、環境内の Gnuplot を呼び出し一括実行します。
-- `RemoveBOM.cs`: ファイルから BOM（Byte Order Mark）を削除するための C# スクリプトです。
 
 ## 必要条件
 
