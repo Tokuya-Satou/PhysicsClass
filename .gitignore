@@ -2,3 +2,9 @@ __pycache__/
 
 # Claude Code 設定（ローカル専用）
 .claude/
+
+# kintone 作業の紛れ込み（このリポジトリでは使わない）
+.env
+.env.*
+node_modules/
+package-lock.json
